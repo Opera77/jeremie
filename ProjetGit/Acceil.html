@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mon Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="haut">
+		<h1>Mon Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">À propos</a></li>
+				<li><a href="#projects">Projets</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="Ecommerce.html">Mon Album</a></li>
+			</ul>
+		</nav>
+		<marquee>Opera Ngovula </marquee>
+	</header>
+	<main>
+		<section id="about">
+			<h2><span>À propos de moi</span></h2>
+			<p>Je suis <span>NGOVULA BIEY Jeremie</span> un développeur web passionné par la création de sites web et d'applications. J'aime travailler avec des technologies comme HTML, CSS et JavaScript. Je suis également intéressé par l'apprentissage de nouvelles techniques et technologies.</p>
+		</section>
+		<section id="projects">
+			<h2><span>Mes projets</span></h2>
+			<ul>
+				<li>
+					<h3>Site web de vente en ligne</h3>
+					<p>Création d'un site web de vente en ligne pour une boutique de vêtements. Utilisation de HTML, CSS et JavaScript pour le développement.</p>
+				</li>
+				<li>
+					<h3>Application de gestion de tâches</h3>
+					<p>Création d'une application de gestion de tâches en utilisant React. La fonctionnalité principale de l'application est de permettre aux utilisateurs de créer et de gérer des listes de tâches.</p>
+				</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contactez-moi</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Nom:</label>
+				<input type="text" id="name" name="name" required placeholder="Ex:Opera Ngovula">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required placeholder="Ex:jeremiengovula77@gmail.com">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required placeholder="Ex:votre message"></textarea>
+				<input type="submit" value="Envoyer">
+			</form>
+			<button onclick="window.location.href='https://wa.me/243827262433/?text=Bonjour%20Jeremie,%20je%20veux%20juste%20vous%20féliciter'">Contacter moi via WhatsApp</button>
+			<a href="#haut"><button id="btn">Haut</button></a>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Mon Portfolio</p>
+	</footer>
+	<script>
+	</script>
+</body>
+</html>
